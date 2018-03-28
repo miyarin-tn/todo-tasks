@@ -4,8 +4,8 @@
 
 1. Build image form Dockerfile
 
-	`docker build -t <image name>:<version> .`
-	`ex: docker build -t thinh:v1.0 .`
+	`docker build -t <image name>:<version> .
+	ex: docker build -t thinh:v1.0 .`
 
 2. Pull mysql image
 
