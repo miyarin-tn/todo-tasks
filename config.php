@@ -3,7 +3,7 @@
 	header('Content-Type: application/json; charset=utf8');
 
 	class database {
-		public $hostname = '172.17.0.2', $username = 'root', $password = 'Ngoc-2403', $database = 'todotasks', $connect = null;
+		public $hostname = '172.17.0.2', $username = 'root', $password = 'Thinh-1234', $database = 'todotasks', $connect = null;
 		public function __construct() {
 			$this->connect = mysqli_connect($this->hostname, $this->username, $this->password, $this->database);
 			if ($this->connect->connect_error) {
