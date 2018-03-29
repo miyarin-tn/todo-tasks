@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+	<base href="/task_docker/">
 </head>
 <body>
 	<div ng-app="myApp">
