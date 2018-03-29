@@ -1,4 +1,4 @@
-angular.module('myApp', ['ngRoute']).config(function($routeProvider) {
+angular.module('myApp', ['ngRoute']).config(function($routeProvider, $locationProvider) {
 	$routeProvider
 	.when('/', {
 		templateUrl: 'filter/all.html',
@@ -9,6 +9,7 @@ angular.module('myApp', ['ngRoute']).config(function($routeProvider) {
 	.when('/complete', {
 		templateUrl: 'filter/complete.html'
 	});
+	$locationProvider.html5Mode(true);
 }).controller('ctrlTask', function($scope, $http) {
 	$http.get('config.php').then(function(response) {
 		$scope.tasks = response.data;
